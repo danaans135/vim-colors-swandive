@@ -31,7 +31,7 @@ endif
 hi Boolean         guifg=#AE81FF
 hi Character       guifg=#E6DB74
 hi Number          guifg=#AE81FF
-hi String          guifg=#E6DB74
+hi String          guifg=#a67Be4
 hi Conditional     guifg=#7777f2               gui=none
 hi Constant        guifg=#AE81FF               gui=bold
 hi Cursor          guifg=#000000 guibg=#F8F8F0
@@ -52,7 +52,7 @@ hi Float           guifg=#AE81FF
 hi FoldColumn      guifg=#465457 guibg=#000000
 hi Folded          guifg=#708080 guibg=#303030
 hi Function        guifg=#A6E22E
-hi Identifier      guifg=#FD971F
+hi Identifier      guifg=#6DE74F
 hi Ignore          guifg=#808080 guibg=bg
 hi IncSearch       guifg=#C4BE89 guibg=#000000
 
@@ -64,7 +64,7 @@ hi SpecialKey      guifg=#66D9EF               gui=italic
 hi MatchParen      guifg=#000000 guibg=#FD971F gui=bold
 hi ModeMsg         guifg=#E6DB74
 hi MoreMsg         guifg=#E6DB74
-hi Operator        guifg=#F92672
+hi Operator        guifg=#F926d2
 
 " complete menu
 hi Pmenu           guifg=#66D9EF guibg=#000000
@@ -72,8 +72,8 @@ hi PmenuSel                      guibg=#808080
 hi PmenuSbar                     guibg=#080808
 hi PmenuThumb      guifg=#66D9EF
 
-hi PreCondit       guifg=#A6E22E               gui=bold
-hi PreProc         guifg=#A6E22E
+hi PreCondit       guifg=#86E28E               gui=bold
+hi PreProc         guifg=#86E28E
 hi Question        guifg=#66D9EF
 hi Repeat          guifg=#F92672               gui=bold
 hi Search          guifg=#FFFFFF guibg=#455354
@@ -97,8 +97,8 @@ hi Tag             guifg=#F92672               gui=italic
 hi Title           guifg=#ef5939
 hi Todo            guifg=#FFFFFF guibg=bg      gui=bold
 
-hi Typedef         guifg=#66D9EF
-hi Type            guifg=#66D9EF               gui=none
+hi Typedef         guifg=#66a9EF
+hi Type            guifg=#66a9EF               gui=none
 hi Underlined      guifg=#808080               gui=underline
 
 hi VertSplit       guifg=#808080 guibg=#080808 gui=bold
@@ -119,7 +119,7 @@ if s:swandive_original == 1
    hi SpecialKey      guifg=#75715E
 else
    hi Normal          guifg=#F2F8F8 guibg=#0a0a0a
-   hi Comment         guifg=#7E8E91
+   hi Comment         guifg=#6E7E81
    hi CursorLine                    guibg=#000000
    hi CursorLineNr    guifg=#40c0F2 guibg=#404040 gui=bold
    hi CursorColumn                  guibg=#000000
